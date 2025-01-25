@@ -3,9 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Matthew Yazbek - Profile</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(to right, #f5f5f5, #e3f2fd);
+            color: #333;
+            padding: 20px;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            width: 80%;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+        .left, .right {
+            padding: 50px;
+        }
+        .left {
+            background: #f1f8e9;
+            border-right: 2px solid #c8e6c9;
+        }
+        .right {
+            background: #e8f5e9;
+        }
+        h2 {
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+            color: #388e3c;
+        }
+        p {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #1b5e20;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="left">
+            <h2>Who I Am</h2>
+            <p>My name is <span class="highlight">Matthew Yazbek</span>.</p>
+            <p>I have <span class="highlight">3 years of experience</span> in Luau scripting.</p>
+            <p>I have <span class="highlight">dramatically improved</span> my health and fitness.</p>
+            <p>I have gained <span class="highlight">profound philosophical knowledge</span>.</p>
+        </div>
+        <div class="right">
+            <h2>My Aspirations</h2>
+            <p>To achieve <span class="highlight">peak health and fitness</span>.</p>
+            <p>To <span class="highlight">innovate Roblox games</span> and earn significant income.</p>
+            <p>To <span class="highlight">master web development</span>.</p>
+            <p>To <span class="highlight">communicate effectively</span>.</p>
+        </div>
+    </div>
 </body>
 </html>
